@@ -1,0 +1,88 @@
+body{
+    background-image: url("img.jpg");
+    background-size: cover;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.Todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+}
+.comp{
+    text-align: center;
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(233, 196, 202);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 55px;
+    gap: 10px;
+}
+.List{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.task{
+    font-size: 1rem;
+    width: 100%;
+    display: flex;
+    background-color: rgb(233, 196, 202);
+    border-radius: 20px;
+    align-items: center;
+    height: 55px;
+    justify-content: space-between;
+}
+.title{
+    background-color: gray;
+    color: white;
+    height: 40px;
+}
+form{
+    background-color: rgb(233, 196, 202);
+    padding-right:4px ;
+}
+input{
+    border-radius: 20px;
+    width: 87%;
+    height: 25px;
+}
+button{
+    border-radius: 8px;
+    color: white;
+    height: 40px;
+}
+form button{
+    width: 60px;
+    background-color: green;
+    font-size: 1rem;
+}
+.taskname{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.task button{
+    width: auto;
+    letter-spacing: 1.5px;
+    margin: 5px;
+    font-size: 15px;
+}
+.red{
+    background-color: red;
+}
+.bleu , .bleu_b{
+    background-color: blue;
+}
